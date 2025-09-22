@@ -7,3 +7,10 @@
 
 // your code
 let factorial
+factorial = 1;
+let counter = 1;
+while (counter <= 10) {
+    factorial = factorial * counter;
+    counter = counter + 1;
+}
+console.log(factorial);

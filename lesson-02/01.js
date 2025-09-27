@@ -10,8 +10,8 @@
 // тестовые данные (значения можно менять)
 // меняем const на let и все значения на false
 let isAdmin = false
-let isVerifiedUser = true
-let hasSpecialPermission = true
+let isVerifiedUser = false
+let hasSpecialPermission = false
 let hasTemporaryPass = false
 
 let isAccess = false 

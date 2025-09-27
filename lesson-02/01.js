@@ -26,7 +26,7 @@ while (isAccess === false) {
         case "admin": {
             isAdmin = true;
             isVerifiedUser = true;
-            hasSpecialPermission = true;
+            //hasSpecialPermission = true;
             break
         }
         case "dima": {

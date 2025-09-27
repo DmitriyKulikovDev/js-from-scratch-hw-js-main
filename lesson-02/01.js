@@ -20,7 +20,7 @@ let isAccess = false
 while (isAccess === false) {
 
       let userName = prompt("Enter user Name");
-      userName = userName.toLowerCase();
+      //userName = userName.toLowerCase();
 
       switch(userName) {
         case "admin": {

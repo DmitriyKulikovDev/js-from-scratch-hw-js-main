@@ -20,7 +20,9 @@ let isAccess = false
 while (isAccess === false) {
 
       let userName = prompt("Enter user Name");
-      
+      if (!userName) {
+        continue; // Если ничего не ввели или нажали Cancel, продолжаем цикл заново
+        }
 
       switch(userName) {
         case "Администратор": {

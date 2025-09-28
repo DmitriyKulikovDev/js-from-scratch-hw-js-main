@@ -20,10 +20,10 @@ let isAccess = false
 while (isAccess === false) {
 
       let userName = prompt("Enter user Name");
-      //userName = userName.toLowerCase();
+      
 
       switch(userName) {
-        case "admin": {
+        case "Администратор": {
             isAdmin = true;
             hasSpecialPermission = true;
             break

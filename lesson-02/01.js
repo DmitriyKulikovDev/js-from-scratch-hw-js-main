@@ -9,49 +9,19 @@
 
 // тестовые данные (значения можно менять)
 // меняем const на let и все значения на false
-let isAdmin = false
-let isVerifiedUser = false
-let hasSpecialPermission = false
-let hasTemporaryPass = false
+const isAdmin = false               //
+const hasSpecialPermission = true 
+const isVerifiedUser = true       
+const hasTemporaryPass = false    
 
-let isAccess = false 
+let isAccess = false
 
 // your code
-while (isAccess === false) {
 
-      let userName = prompt("Enter user Name");
-      if (!userName) {
-        continue; // Если ничего не ввели или нажали Cancel, продолжаем цикл заново
-        }
 
-      switch(userName) {
-        case "Администратор": {
-            isAdmin = true;
-            hasSpecialPermission = true;
-            break
-        }
-        case "dima": {
-            isVerifiedUser = true;
-            hasSpecialPermission = true;
-            break
-        }
-        case "andrew": {
-            isVerifiedUser = true;
-            hasTemporaryPass = true;
-            break
-        }
-        case "boris": {
-            isVerifiedUser = true;
-            hasSpecialPermission = true;
-            break
-        }
-    }
-      
         if ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)) {
           isAccess = true
-          alert("Access granted")
+          alert("Доступ разрешен")
         } else {
-          alert("Access denied. Try again")
+          alert("Доступ запрещен")
       }
-      
-}

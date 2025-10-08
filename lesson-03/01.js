@@ -1,9 +1,9 @@
 // Напишите функцию calculateAverage, которая принимает 2 числа и возвращает их среднее арифметическое
-
+let average 
 function calculateAverage(n1, n2) {
     return (n1 + n2) / 2;
 }
 const num1 = 40;
 const num2 = 60;
-let average = calculateAverage(num1, num2);
+average = calculateAverage(num1, num2);
 console.log("Среднее арифметическое чисел " + num1 + " и " + num2 + " равно " + average)

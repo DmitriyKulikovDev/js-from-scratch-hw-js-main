@@ -10,7 +10,10 @@ function findLargest(n1, n2, n3) {
     } else if (n3 > n1 && n3 > n2) {
         console.log("Число " + n3 + " - наибольшее");
         return n3
-    } 
+    } else {
+        console.log("Все числа одинаковы и равны " + n1);
+        return n1
+    }
 }
 
 findLargest(111, 89, 120)

@@ -2,14 +2,15 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(number) {
+    let result; // Создаем новую переменную для хранения результата
     if (number % 2 === 0) {
-        isEven =true;
-        console.log("Число " + number + " - четное");
-        
+        result = true;
+        console.log("Число " + number + " - четное")
     } else {
-        isEven = false;
+        result = false;
         console.log("Число " + number + " - нечетное");
     }
+    return result; // Возвращаем результат (если нужен внешний доступ)
 }
 
-isEven(37)
+isEven(37); // Теперь всё работает нормально

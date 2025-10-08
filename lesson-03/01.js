@@ -5,5 +5,5 @@ function calculateAverage(n1, n2) {
 }
 const num1 = 40;
 const num2 = 60;
-average = calculateAverage(num1, num2);
+let average = calculateAverage(num1, num2);
 console.log("Среднее арифметическое чисел " + num1 + " и " + num2 + " равно " + average)

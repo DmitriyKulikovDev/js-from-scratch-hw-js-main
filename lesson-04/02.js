@@ -18,9 +18,9 @@ const newArr = [1,2,2,3,4,4,5]
 //const num = 34;
 //const newFoundElement = includesElement(newArr, num);
 //
-
+const uniqueElement = [];
 function findUniqueElements(someArray) {
-    const uniqueElement = [];
+    
     for (let i = 0; i < someArray.length; i++) {
            const num = someArray[i]; 
            const foundEl = includesElement(uniqueElement, num);
@@ -30,11 +30,11 @@ function findUniqueElements(someArray) {
             uniqueElement.push(num)
            }
     }
-    console.log(uniqueElement);
+    
 }
 
 findUniqueElements(newArr);
-
+console.log(uniqueElement);
 
 
 

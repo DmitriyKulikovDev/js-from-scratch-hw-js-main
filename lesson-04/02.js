@@ -14,7 +14,7 @@
 
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
-const newArr = [7,1,30,8,2,1,9,7,9]
+const newArr = [1,2,2,3,4,4,5]
 //const num = 34;
 //const newFoundElement = includesElement(newArr, num);
 //

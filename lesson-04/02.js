@@ -30,11 +30,11 @@ function findUniqueElements(someArray) {
             uniqueElement.push(num)
            }
     }
-    
+    return uniqueElement
 }
 
-findUniqueElements(newArr);
-console.log(uniqueElement);
+
+console.log(findUniqueElements(newArr));
 
 
 
